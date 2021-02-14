@@ -28,7 +28,7 @@ create table t_employee(
 
 ## Table Objects
 
-Generally, we can define Kotlin objects extending `Table` to descript our table schemas in Ktorm. The following code defines the two tables with Ktorm: 
+Generally, we can define Kotlin objects extending `Table` to describe our table schemas in Ktorm. The following code defines the two tables with Ktorm: 
 
 ```kotlin
 object Departments : Table<Nothing>("t_department") {
