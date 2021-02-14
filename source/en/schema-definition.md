@@ -6,7 +6,7 @@ related_path: zh-cn/schema-definition.html
 
 # Schema Definition
 
-To use SQL DSL, we need to let Ktorm know our schemas. Assuming we have two tables, `t_department` and `t_employee`, their schemas are given in the SQL below, how should we descript these two tables with Ktorm?
+To use SQL DSL, we need to let Ktorm know our schemas. Assuming we have two tables, `t_department` and `t_employee`, their schemas are given in the SQL below, how should we describe these two tables with Ktorm?
 
 ```sql
 create table t_department(
